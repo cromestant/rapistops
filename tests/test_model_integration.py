@@ -21,6 +21,7 @@ def test_core_model_integration():
     )
 
     provenance = Provenance(
+        id=1,
         source_id=source.id,
         collected_at="2024-06-01",
         collection_method="Test Method",
