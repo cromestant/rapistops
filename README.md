@@ -18,7 +18,7 @@ The system is designed to preserve the distinction between:
 A lack of conviction does not mean a report or record never existed. RapistOps is intended to preserve those distinctions rather than reducing every case to a simple convicted/not-convicted classification.
 
 ## Core Question 
-How can preserve, connect, and analyze fragmented information about sexual violence so that survivors are not dependent on a single institutional outcome for their experiences to remain visible, traceable, and accountable?
+How can we preserve, connect, and analyze fragmented information about sexual violence so that survivors are not dependent on a single institutional outcome for their experiences to remain visible, traceable, and accountable?
 
 ## Engineering Question 
 How can a software system transform fragmented, heterogeneous, and changing records into a traceable network of evidence, entities, relationships, and outcomes without collapsing uncertainty or documented claims into unsupported conclusions?

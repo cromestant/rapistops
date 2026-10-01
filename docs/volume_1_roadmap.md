@@ -14,25 +14,51 @@ Goal: Establish the RapistOps development environment.
 - [x] Configure pyproject.toml
 - [x] Install initial dependencies
 - [x] Configure pytest
-- [ ] Create initial Git repository
+- [x] Create initial Git repository
 - [x] Establish .gitignore
 - [x] Create initial README
-- [ ] Verify development environment
+- [x] Verify development environment
 
 # Phase 1 — Core Data Model
+Goal: Define the smallest set of objects RapistOps needs to represent, preserve, and connect information.
 
-Goal: Define the smallest set of objects RapistOps needs to represent information.
-
+## 1.1 — Source & Provenance
+Goal: Define where information comes from and how its origin is preserved.
 - [ ] Define Source
+- [ ] Define Provenance
+
+## 1.2 — Records & Evidence
+Goal: Define the information being preserved and the evidence associated with it.
 - [ ] Define Record
 - [ ] Define Evidence
+
+## 1.3 — People & Institutions
+Goal: Define the people and organizations represented in records.
 - [ ] Define Person
 - [ ] Define Institution
+
+## 1.4 — Events & Cases
+Goal: Define the things that happened and the cases/proceedings that organize them.
 - [ ] Define Event
 - [ ] Define Case
-- [ ] Define Relationship
+
+## 1.5 — Status
+Goal: Define how RapistOps represents the state or outcome of a record, case, or proceeding.
 - [ ] Define Status
-- [ ] Define Provenance
+
+## 1.6 — Relationships
+Goal: Define how objects in the system are explicitly connected.
+- [ ] Define Relationship
+
+## 1.7 — Core Model Integration
+Goal: Verify that the core objects form a coherent model before moving into the database phase.
+- [ ] Identify required relationships between core objects
+- [ ] Identify required fields for each object
+- [ ] Identify objects that depend on other objects
+- [ ] Check that the model preserves provenance and context
+- [ ] Check that reported information remains distinguishable from established outcomes
+- [ ] Review the complete core data model
+- [ ] Confirm Phase 1 is complete
 
 # Phase 2 — Database
 
